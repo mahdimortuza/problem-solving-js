@@ -25,5 +25,15 @@ const result = findLargestNumber([5, 150, 8, 10, 87])
     }
 
     const result= findSummation([2, 3, 5, 7])
-    console.log(result);
+    // console.log(result);
 } 
+
+// problem-4: Write a function that removes duplicate values from an array.
+{
+    function removeDuplicate(arr){
+        return [...new Set(arr)]
+    }
+
+    const result = removeDuplicate([2, 5, 5, 7, 2, 4])
+    console.log(result);
+}
