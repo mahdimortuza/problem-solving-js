@@ -17,3 +17,13 @@ function findLargestNumber(arr){
 const result = findLargestNumber([5, 150, 8, 10, 87])
 // console.log(result);
 }
+
+//problem-3: Write a function that returns the sum of all numbers in an array.
+{
+    function findSummation(arr){
+        return arr.reduce((acc, cur) => acc +cur, 0)
+    }
+
+    const result= findSummation([2, 3, 5, 7])
+    console.log(result);
+} 
