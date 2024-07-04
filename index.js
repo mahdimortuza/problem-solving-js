@@ -35,5 +35,16 @@ const result = findLargestNumber([5, 150, 8, 10, 87])
     }
 
     const result = removeDuplicate([2, 5, 5, 7, 2, 4])
+    // console.log(result);
+}
+// problem-5: Write a function that merges two arrays and removes duplicate values.
+
+{
+    function margArrays(arr1, arr2){
+        return [...new Set([...arr1, ...arr2])]
+    }
+    const arr1 = [2, 5, 5, 7, 2, 4]
+    const arr2 = [5, 8, 5, 7, 5, 7, 9]
+    const result = margArrays(arr1, arr2)
     console.log(result);
 }
