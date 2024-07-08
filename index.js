@@ -46,5 +46,20 @@ const result = findLargestNumber([5, 150, 8, 10, 87])
     const arr1 = [2, 5, 5, 7, 2, 4]
     const arr2 = [5, 8, 5, 7, 5, 7, 9]
     const result = margArrays(arr1, arr2)
-    console.log(result);
+    // console.log(result);
 }
+
+// Capitalize the First Letter of Each Word.
+{
+    function capitalizeFirstLetter(str){
+        const words = str.split(" ")
+
+        for(let i = 0; i < words.length; i++){
+            words[i] = words[i][0].toUpperCase() + words[i].substr(1)
+        }
+        console.log(words);
+    }
+    const result = capitalizeFirstLetter("hello world this is mahdi mortuza")
+}
+
+ 
